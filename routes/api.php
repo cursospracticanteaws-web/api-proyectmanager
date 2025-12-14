@@ -30,7 +30,3 @@ Route::prefix('auth')->group(function () {
     Route::put('tasks/{id}/complete', [TaskController::class, 'complete']);
     Route::apiResource('tasks', TaskController::class);
 });
-
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
