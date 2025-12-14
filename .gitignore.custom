@@ -1,0 +1,32 @@
+# Ignorar base de datos SQLite
+/database/database.sqlite
+/database/database.sqlite-journal
+
+# Archivos de entorno
+.env
+.env.backup
+.env.production
+
+# Logs
+/storage/logs/*.log
+
+# Cache
+/bootstrap/cache/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependencias
+/vendor/
+/node_modules/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
